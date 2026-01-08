@@ -46,7 +46,7 @@ const HeroSection = memo(function HeroSection() {
         role="banner"
         aria-label="Hero section"
       >
-        {/* LEFT CONTENT */}
+        
         <div className="w-full lg:w-1/2 flex flex-col justify-center xl:ml-[43px] xl:pb-3">
           <H1 className="text-white block text-shadow-[0_2.03px_2.03px_0_#0000001A]">
             <p className="md:hidden lg:block">
@@ -72,11 +72,9 @@ const HeroSection = memo(function HeroSection() {
 
         </div>
 
-        {/* RIGHT CONTENT */}
         <div className="w-full lg:w-1/2 flex flex-col justify-center items-start h-full">
           <HeroSectionSearch />
 
-          {/* SPACE BETWEEN SEARCH & SERVICES */}
           <Paragraph1 className="text-white -tracking-[3%] mt-6 md:mt-8 lg:mt-15 pb-4 md:pb-4 lg:pb-[30px] text-shadow-[0px_0px_4px_0px_#00000040]">
             Browse Categories
           </Paragraph1>
@@ -149,6 +147,8 @@ const HeroSection = memo(function HeroSection() {
               </div>
             )}
           </div>
+
+          
         </div>
       </section>
     </WrapperBGWidth>
